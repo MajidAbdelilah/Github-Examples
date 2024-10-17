@@ -1,0 +1,15 @@
+name: "practice"
+
+on: [push]
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        name: "say hello"
+        steps:
+            - run: "echo hello world"
+              id: hello
+              name: hello world
+
+
+        
